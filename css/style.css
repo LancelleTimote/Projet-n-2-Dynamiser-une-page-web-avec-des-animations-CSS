@@ -1,3 +1,30 @@
+body {
+  width: 1100px;
+  margin: auto;
+}
 
+header {
+  background-color: #579c87;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+header h1 {
+  font-size: 2.5em;
+  color: #fdcb46;
+}
+
+footer {
+  background-color: #579c87;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  font-size: 1.4em;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fdcb46;
+}
 
 /*# sourceMappingURL=style.css.map */

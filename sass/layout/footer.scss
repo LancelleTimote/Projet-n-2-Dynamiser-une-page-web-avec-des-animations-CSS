@@ -1,0 +1,12 @@
+footer {
+    background-color: $colorbloc;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    a {
+        font-size: map-get($font-size, footer);
+        margin-top: 10px;
+        text-decoration: none;
+        color: $colorwritingbloc;
+    }
+}
