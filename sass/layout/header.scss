@@ -1,10 +1,10 @@
 header {
-    background-color: $colorbloc;
+    background-color: $color-bloc;
     height: 100px;
     display: flex;
     justify-content: center;
     h1 {
         font-size: map-get($font-size, header);
-        color: $colorwritingbloc;
+        color: $color-bloc-writing;
     }
 }

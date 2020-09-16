@@ -1,5 +1,5 @@
 footer {
-    background-color: $colorbloc;
+    background-color: $color-bloc;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -7,6 +7,6 @@ footer {
         font-size: map-get($font-size, footer);
         margin-top: 10px;
         text-decoration: none;
-        color: $colorwritingbloc;
+        color: $color-bloc-writing;
     }
 }
