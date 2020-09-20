@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2em;
+    a {
+        text-decoration: none;
+    }
     &--note {
         width: 40%;
         height: 22em;
@@ -43,7 +46,7 @@
     text-align: center;
     padding: 0.5em;
     width: 25%;
-    margin: 3em 26em;
+    margin: auto;
     border-radius: 7px;
     a {
         text-decoration: none;

@@ -40,6 +40,9 @@ footer a {
   justify-content: center;
   padding-top: 2em;
 }
+.menu a {
+  text-decoration: none;
+}
 .menu--note {
   width: 40%;
   height: 22em;
@@ -79,7 +82,7 @@ footer a {
   text-align: center;
   padding: 0.5em;
   width: 25%;
-  margin: 3em 26em;
+  margin: auto;
   border-radius: 7px;
 }
 .prochainement a {
