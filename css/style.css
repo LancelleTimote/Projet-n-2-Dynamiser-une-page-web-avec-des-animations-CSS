@@ -1,5 +1,7 @@
 .main {
-  width: 1200px;
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 10em;
 }
 
 header {
@@ -7,53 +9,83 @@ header {
   display: flex;
   justify-content: center;
 }
+header a {
+  text-decoration: none;
+}
 header h1 {
-  font-size: 2.5em;
   color: #fdcb46;
+  font-size: 3.5em;
+  text-align: center;
 }
 
 footer {
   background-color: #579c87;
   display: flex;
   justify-content: space-around;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 footer a {
-  font-size: 1.4em;
-  text-decoration: none;
   color: #fdcb46;
-  padding: 10px 0px;
+  font-size: 1.8em;
+  text-decoration: none;
+  padding: 30px 0px;
 }
 
 .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 2em;
 }
 .menu--note {
   width: 40%;
+  height: 22em;
+  margin: 1.2em;
+  padding-top: 12em;
   text-align: center;
+  background-color: #fcdfdb;
+  box-shadow: 1px 10px 20px 5px rgba(112, 112, 112, 0.32);
 }
 .menu--chic {
   width: 40%;
+  height: 22em;
+  margin: 1.2em;
+  padding-top: 12em;
   text-align: center;
+  box-shadow: 1px 10px 20px 5px rgba(112, 112, 112, 0.32);
 }
 .menu--delice {
   width: 40%;
+  height: 22em;
+  margin: 1.2em;
+  padding-top: 12em;
   text-align: center;
+  box-shadow: 1px 10px 20px 5px rgba(112, 112, 112, 0.32);
 }
 .menu--palette {
   width: 40%;
+  height: 22em;
+  margin: 1.2em;
+  padding-top: 12em;
   text-align: center;
+  box-shadow: 1px 10px 20px 5px rgba(112, 112, 112, 0.32);
 }
 
 .prochainement {
-  display: flex;
-  justify-content: center;
+  background-color: #579c87;
+  text-align: center;
+  padding: 0.5em;
+  width: 25%;
+  margin: 3em 26em;
+  border-radius: 7px;
 }
 .prochainement a {
   text-decoration: none;
-  background-color: #579c87;
   color: #fdcb46;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */

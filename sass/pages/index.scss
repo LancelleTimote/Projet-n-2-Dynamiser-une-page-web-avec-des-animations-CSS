@@ -2,30 +2,52 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 2em;
     &--note {
         width: 40%;
+        height: 22em;
+        margin: 1.2em;
+        padding-top: 12em;
         text-align: center;
+        background-color: $color-bloc-note;
+        @include box-shadow;
     }
     &--chic {
         width: 40%;
+        height: 22em;
+        margin: 1.2em;
+        padding-top: 12em;
         text-align: center;
+        @include box-shadow;
     }
     &--delice {
         width: 40%;
+        height: 22em;
+        margin: 1.2em;
+        padding-top: 12em;
         text-align: center;
+        @include box-shadow;
     }
     &--palette {
         width: 40%;
+        height: 22em;
+        margin: 1.2em;
+        padding-top: 12em;
         text-align: center;
+        @include box-shadow;
     }
 }
 
 .prochainement {
-    display: flex;
-    justify-content: center;
+    background-color: $color-bloc;
+    text-align: center;
+    padding: 0.5em;
+    width: 25%;
+    margin: 3em 26em;
+    border-radius: 7px;
     a {
         text-decoration: none;
-        background-color: $color-bloc;
         color: $color-bloc-writing;
+        font-size: map-get($font-size, prochainement);
     }
 }
