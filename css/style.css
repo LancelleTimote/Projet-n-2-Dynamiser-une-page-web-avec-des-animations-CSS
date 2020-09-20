@@ -1,11 +1,9 @@
-body {
-  width: 1100px;
-  margin: auto;
+.main {
+  width: 1200px;
 }
 
 header {
   background-color: #579c87;
-  height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -16,14 +14,45 @@ header h1 {
 
 footer {
   background-color: #579c87;
-  height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 footer a {
   font-size: 1.4em;
-  margin-top: 10px;
   text-decoration: none;
+  color: #fdcb46;
+  padding: 10px 0px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu--note {
+  width: 40%;
+  text-align: center;
+}
+.menu--chic {
+  width: 40%;
+  text-align: center;
+}
+.menu--delice {
+  width: 40%;
+  text-align: center;
+}
+.menu--palette {
+  width: 40%;
+  text-align: center;
+}
+
+.prochainement {
+  display: flex;
+  justify-content: center;
+}
+.prochainement a {
+  text-decoration: none;
+  background-color: #579c87;
   color: #fdcb46;
 }
 

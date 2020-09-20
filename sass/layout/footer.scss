@@ -1,12 +1,11 @@
 footer {
     background-color: $color-bloc;
-    height: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     a {
         font-size: map-get($font-size, footer);
-        margin-top: 10px;
         text-decoration: none;
         color: $color-bloc-writing;
+        padding: 10px 0px;
     }
 }

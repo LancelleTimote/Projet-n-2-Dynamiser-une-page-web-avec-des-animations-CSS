@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &--note {
+        width: 40%;
+        text-align: center;
+    }
+    &--chic {
+        width: 40%;
+        text-align: center;
+    }
+    &--delice {
+        width: 40%;
+        text-align: center;
+    }
+    &--palette {
+        width: 40%;
+        text-align: center;
+    }
+}
+
+.prochainement {
+    display: flex;
+    justify-content: center;
+    a {
+        text-decoration: none;
+        background-color: $color-bloc;
+        color: $color-bloc-writing;
+    }
+}
