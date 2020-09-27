@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .main {
   max-width: 1140px;
   margin: auto;
@@ -15,7 +19,6 @@ header a {
 header h1 {
   color: #fdcb46;
   font-size: 3.5em;
-  text-align: center;
 }
 
 footer {
@@ -60,6 +63,14 @@ footer a {
   text-align: center;
   box-shadow: 1px 10px 20px 5px rgba(112, 112, 112, 0.32);
 }
+.menu--chic h2 {
+  background: -webkit-linear-gradient(left, orange, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu--chic span {
+  color: rgba(204, 117, 45, 0.918);
+}
 .menu--delice {
   width: 40%;
   height: 22em;
@@ -78,17 +89,20 @@ footer a {
 }
 
 .prochainement {
-  background-color: #579c87;
-  text-align: center;
-  padding: 0.5em;
-  width: 25%;
-  margin: auto;
-  border-radius: 7px;
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
 }
 .prochainement a {
+  background-color: #579c87;
   text-decoration: none;
+  text-align: center;
   color: #fdcb46;
   font-size: 1.5em;
+  min-width: 350px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.3em;
 }
 
 /*# sourceMappingURL=style.css.map */
