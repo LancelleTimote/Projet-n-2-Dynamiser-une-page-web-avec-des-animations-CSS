@@ -1,5 +1,5 @@
 footer {
-    background-color: $color-bloc;
+    background-color: $color-block;
     display: flex;
     justify-content: space-around;
     position: fixed;
@@ -7,7 +7,7 @@ footer {
     bottom: 0;
     width: 100%;
     a {
-        color: $color-bloc-writing;
+        color: $color-block-writing;
         font-size: map-get($font-size, footer);
         text-decoration: none;
         padding: 30px 0px;

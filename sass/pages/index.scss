@@ -1,4 +1,9 @@
-.menu {
+.main {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.menu__group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,7 +28,7 @@
         font-family: "segoe", 'Times New Roman', Times, Verdana, sans-serif;
     }
     &--note {
-        background-color: $color-bloc-note;
+        background-color: $color-block-note;
         a {
             padding-top: 10em;
         }
@@ -40,7 +45,7 @@
             text-transform: uppercase;
         }
         span, h2 {
-            color: rgba(68, 1, 1, 1);
+            color: $color-text-note;
         }
     }
     &--chic {
@@ -90,10 +95,10 @@
     display: flex;
     justify-content: center;
     a {
-        background-color: $color-bloc;
+        background-color: $color-block;
         text-decoration: none;
         text-align: center;
-        color: $color-bloc-writing;
+        color: $color-block-writing;
         font-size: map-get($font-size, prochainement);
         min-width: 350px;
         display: inline-block;
