@@ -4,6 +4,7 @@
     text-align: center;
     ul {
         list-style: none;
+        margin-bottom: 3em;
     }
     h2 {
         margin-top: 0;
@@ -29,13 +30,26 @@
         li {
             display: flex;
             justify-content: space-between;
-            padding: 0.5em 2em;
+            padding: 0.5em 2em 0.5em 0;
+        }
+        &--ornament {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2em;
+            &--mirror {
+                transform: scaleX(-1);
+            }
         }
         &--bot {
             display: flex;
             justify-content: center;
             h2 {
-                font-size: 1.4em;
+                font-size: 1.5em;
+                padding-top: 0.5em;
+            }
+            img {
+                padding-bottom: 1.5em;
             }
         }
     }

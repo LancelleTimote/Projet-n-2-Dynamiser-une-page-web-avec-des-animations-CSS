@@ -1,15 +1,12 @@
-.main {
+.menu__group {
     max-width: 1140px;
     margin: auto;
-}
-
-.menu__group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2em;
     article {
-        width: 40%;
+        width: 35%;
         margin: 1.2em;
         box-shadow: 1px 10px 20px 5px rgba(112,112,112,0.32);
     }
@@ -20,7 +17,6 @@
         align-items: center;
         height: 22em;
         padding-top: 12em;
-        width: 100%;
     }
     span {
         font-size: 2em;
