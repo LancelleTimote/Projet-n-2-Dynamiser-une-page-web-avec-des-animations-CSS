@@ -7,8 +7,8 @@ footer {
     bottom: 0;
     width: 100%;
     a {
-        color: $color-block-writing;
-        font-size: map-get($font-size, footer);
+        color: $color-block-text;
+        font-size: 1.8em;
         text-decoration: none;
         padding: 30px 0;
     }

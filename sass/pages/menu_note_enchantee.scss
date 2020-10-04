@@ -23,6 +23,7 @@
         margin: auto;
         padding: 3em;
         width: 50em;
+        box-shadow: 0 0 15px 0 rgba(112,112,112,0.42);
         h2 {
             font-size: 3em;
             font-family: 'Devonshire', 'Times New Roman', Times, Verdana, sans-serif;
@@ -32,7 +33,7 @@
             justify-content: space-between;
             padding: 0.5em 2em 0.5em 0;
         }
-        &--ornament {
+        &--part1, &--part2, &--part3 {
             display: flex;
             justify-content: space-between;
             align-items: center;
