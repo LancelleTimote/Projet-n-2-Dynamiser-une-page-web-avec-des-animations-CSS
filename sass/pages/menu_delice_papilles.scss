@@ -1,4 +1,4 @@
-.menu__française {
+.menu__papilles {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -27,25 +27,18 @@
         background-color: rgba(255, 245, 254, 1);
         h2 {
             font-size: 3em;
-            font-family: 'Croissant One', 'Times New Roman', Times, Verdana, sans-serif;
-            background: -webkit-linear-gradient(left, rgba(204, 117, 45, 0.918), rgba(143, 91, 254, 1));
+            font-family: 'Dancing Script', 'Times New Roman', Times, Verdana, sans-serif;
+            background: -webkit-linear-gradient(left, rgba(4, 49, 223, 1), rgba(8, 135, 251, 1));
             -webkit-background-clip: text;
             color: transparent;
         }
+        h2, h3 {
+            font-weight: normal;
+        }
         li {
-            font-family: 'Times New Roman', Times, Verdana, sans-serif;
             display: flex;
             justify-content: space-between;
             padding: 0.5em 2em 0.5em 0;
-        }
-        &--part1 {
-            color: $color-text-chic;
-        }
-        &--part2 {
-            color: rgba(165, 103, 153, 1);
-        }
-        &--part3 {
-            color: rgba(110, 76, 204, 1);
         }
         &--part1, &--part2, &--part3 {
             &--title {
@@ -65,22 +58,22 @@
     display: block;
 }
 
-.sprite-2-left {
+.sprite-3-left-1 {
     width: 250px;
-    height: 25px;
-    background-position: -5px -5px;
+    height: 13px;
+    background-position: -5px -118px;
 }
 
-.sprite-2-left2 {
+.sprite-3-left-2 {
     width: 250px;
-    height: 29px;
-    background-position: -5px -40px;
+    height: 13px;
+    background-position: -5px -141px;
 }
 
-.sprite-2-left3 {
+.sprite-3-left-3 {
     width: 250px;
-    height: 29px;
-    background-position: -5px -79px;
+    height: 13px;
+    background-position: -5px -164px;
 }
 
 .mirror{

@@ -170,7 +170,9 @@ footer a {
   font-size: 1.2em;
   margin: auto;
   padding: 3em;
-  width: 50em;
+  width: 53em;
+  max-width: 100%;
+  box-sizing: border-box;
   box-shadow: 0 0 15px 0 rgba(112, 112, 112, 0.42);
 }
 .menu__enchantee--block h2 {
@@ -182,13 +184,13 @@ footer a {
   justify-content: space-between;
   padding: 0.5em 2em 0.5em 0;
 }
-.menu__enchantee--block--part1, .menu__enchantee--block--part2, .menu__enchantee--block--part3 {
+.menu__enchantee--block--part1--title, .menu__enchantee--block--part2--title, .menu__enchantee--block--part3--title {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 2em;
 }
-.menu__enchantee--block--part1--mirror, .menu__enchantee--block--part2--mirror, .menu__enchantee--block--part3--mirror {
+.menu__enchantee--block--part1--title--mirror, .menu__enchantee--block--part2--title--mirror, .menu__enchantee--block--part3--title--mirror {
   transform: scaleX(-1);
 }
 .menu__enchantee--block--bot {
@@ -226,8 +228,11 @@ footer a {
   font-size: 1.2em;
   margin: auto;
   padding: 3em;
-  width: 50em;
+  width: 53em;
   box-shadow: 0 0 15px 0 rgba(112, 112, 112, 0.42);
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #fff5fe;
 }
 .menu__française--block h2 {
   font-size: 3em;
@@ -260,7 +265,7 @@ footer a {
 
 /*ornament*/
 .sprite {
-  background-image: url(../pictures/ornament-chic-française.png);
+  background-image: url(../pictures/ornament-chic-française-delice-papilles.png);
   background-repeat: no-repeat;
   display: block;
 }
@@ -268,19 +273,99 @@ footer a {
 .sprite-2-left {
   width: 250px;
   height: 25px;
-  background-position: 0 0;
+  background-position: -5px -5px;
 }
 
 .sprite-2-left2 {
   width: 250px;
   height: 29px;
-  background-position: 0 -25px;
+  background-position: -5px -40px;
 }
 
 .sprite-2-left3 {
   width: 250px;
   height: 29px;
-  background-position: 0 -54px;
+  background-position: -5px -79px;
+}
+
+.mirror {
+  transform: scaleX(-1);
+}
+
+.menu__papilles {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.menu__papilles ul {
+  list-style: none;
+  margin-bottom: 3em;
+}
+.menu__papilles h2 {
+  margin-top: 0;
+}
+.menu__papilles--title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.menu__papilles--block {
+  font-family: "segoe", "Times New Roman", Times, Verdana, sans-serif;
+  font-size: 1.2em;
+  margin: auto;
+  padding: 3em;
+  width: 53em;
+  box-shadow: 0 0 15px 0 rgba(112, 112, 112, 0.42);
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: #fff5fe;
+}
+.menu__papilles--block h2 {
+  font-size: 3em;
+  font-family: "Dancing Script", "Times New Roman", Times, Verdana, sans-serif;
+  background: -webkit-linear-gradient(left, #0431df, #0887fb);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu__papilles--block h2, .menu__papilles--block h3 {
+  font-weight: normal;
+}
+.menu__papilles--block li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2em 0.5em 0;
+}
+.menu__papilles--block--part1--title, .menu__papilles--block--part2--title, .menu__papilles--block--part3--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+
+/*ornament*/
+.sprite {
+  background-image: url(../pictures/ornament-chic-française-delice-papilles.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-3-left-1 {
+  width: 250px;
+  height: 13px;
+  background-position: -5px -118px;
+}
+
+.sprite-3-left-2 {
+  width: 250px;
+  height: 13px;
+  background-position: -5px -141px;
+}
+
+.sprite-3-left-3 {
+  width: 250px;
+  height: 13px;
+  background-position: -5px -164px;
 }
 
 .mirror {
