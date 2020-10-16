@@ -1,4 +1,4 @@
-.menu__papilles {
+.menu__gout {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -24,13 +24,15 @@
         box-shadow: 0 0 15px 0 rgba(112,112,112,0.42);
         max-width: 100%;
         box-sizing: border-box;
-        background-color: rgba(255, 245, 254, 1);
+        img {
+            width: 275px;
+        }
         h2 {
             font-size: 3em;
-            font-family: 'Dancing Script', 'Times New Roman', Times, Verdana, sans-serif;
-            background: -webkit-linear-gradient(left, rgba(4, 49, 223, 1), rgba(8, 135, 251, 1));
-            -webkit-background-clip: text;
-            color: transparent;
+            font-family: 'Kaushan Script', 'Times New Roman', Times, Verdana, sans-serif;
+            background:-webkit-linear-gradient(left, rgba(23, 129, 14, 1) 10%, rgba(190, 255, 127, 1));
+            -webkit-background-clip:text;
+            color:transparent;
         }
         h2, h3 {
             font-weight: normal;
@@ -46,36 +48,10 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 0 2em;
+                &--mirror {
+                    transform: scaleX(-1);
+                }
             }
         }
     }
-}
-
-/*ornament*/
-.sprite {
-    background-image: url(../pictures/ornament_chic_française_delice_papilles.png);
-    background-repeat: no-repeat;
-    display: block;
-}
-
-.sprite-3-left-1 {
-    width: 250px;
-    height: 13px;
-    background-position: -5px -118px;
-}
-
-.sprite-3-left-2 {
-    width: 250px;
-    height: 13px;
-    background-position: -5px -141px;
-}
-
-.sprite-3-left-3 {
-    width: 250px;
-    height: 13px;
-    background-position: -5px -164px;
-}
-
-.mirror{
-    transform: scaleX(-1);
 }

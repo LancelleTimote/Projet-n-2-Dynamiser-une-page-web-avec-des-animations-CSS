@@ -265,7 +265,7 @@ footer a {
 
 /*ornament*/
 .sprite {
-  background-image: url(../pictures/ornament-chic-française-delice-papilles.png);
+  background-image: url(../pictures/ornament_chic_française_delice_papilles.png);
   background-repeat: no-repeat;
   display: block;
 }
@@ -345,7 +345,7 @@ footer a {
 
 /*ornament*/
 .sprite {
-  background-image: url(../pictures/ornament-chic-française-delice-papilles.png);
+  background-image: url(../pictures/ornament_chic_française_delice_papilles.png);
   background-repeat: no-repeat;
   display: block;
 }
@@ -369,6 +369,62 @@ footer a {
 }
 
 .mirror {
+  transform: scaleX(-1);
+}
+
+.menu__gout {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.menu__gout ul {
+  list-style: none;
+  margin-bottom: 3em;
+}
+.menu__gout h2 {
+  margin-top: 0;
+}
+.menu__gout--title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.menu__gout--block {
+  font-family: "segoe", "Times New Roman", Times, Verdana, sans-serif;
+  font-size: 1.2em;
+  margin: auto;
+  padding: 3em;
+  width: 53em;
+  box-shadow: 0 0 15px 0 rgba(112, 112, 112, 0.42);
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.menu__gout--block img {
+  width: 275px;
+}
+.menu__gout--block h2 {
+  font-size: 3em;
+  font-family: "Kaushan Script", "Times New Roman", Times, Verdana, sans-serif;
+  background: -webkit-linear-gradient(left, #17810e 10%, #beff7f);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.menu__gout--block h2, .menu__gout--block h3 {
+  font-weight: normal;
+}
+.menu__gout--block li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5em 2em 0.5em 0;
+}
+.menu__gout--block--part1--title, .menu__gout--block--part2--title, .menu__gout--block--part3--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+.menu__gout--block--part1--title--mirror, .menu__gout--block--part2--title--mirror, .menu__gout--block--part3--title--mirror {
   transform: scaleX(-1);
 }
 
