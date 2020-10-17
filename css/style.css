@@ -428,4 +428,9 @@ footer a {
   transform: scaleX(-1);
 }
 
+.mentions__block {
+  margin: 2em;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
