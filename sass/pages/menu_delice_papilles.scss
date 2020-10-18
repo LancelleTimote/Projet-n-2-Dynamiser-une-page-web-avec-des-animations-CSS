@@ -28,7 +28,7 @@
         h2 {
             font-size: 3em;
             font-family: 'Dancing Script', 'Times New Roman', Times, Verdana, sans-serif;
-            background: -webkit-linear-gradient(left, rgba(4, 49, 223, 1), rgba(8, 135, 251, 1));
+            background: -webkit-linear-gradient(left, $color-text-papilles-degraded, $color-text-papilles-degraded2);
             -webkit-background-clip: text;
             color: transparent;
         }

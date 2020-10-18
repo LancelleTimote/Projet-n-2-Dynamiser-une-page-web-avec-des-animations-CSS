@@ -19,7 +19,7 @@
     animation: dots 2000ms 700ms ease-in-out infinite;
 }
 
-.dot--3{
+.dot--3 {
     animation: dots 2000ms 1400ms ease-in-out infinite;
 }
 
@@ -45,4 +45,27 @@ footer a:hover {
 80% { -webkit-transform: translate(-2px, -3px) rotate(1deg); }
 90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
 100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.menu__enchantee--underline {
+    background: linear-gradient(to top, $color-text-enchantee 4%, $color-text-enchantee 1%, transparent 6%) no-repeat;
+}
+.menu__française--underlineone {
+    background: linear-gradient(to top, $color-text-française-degraded 4%, $color-text-française-degraded 1%, transparent 6%) no-repeat;
+}
+.menu__française--underlinetwo {
+    background: linear-gradient(to top, $color-text-française-part2 4%, $color-text-française-part2 1%, transparent 6%) no-repeat;
+}
+.menu__française--underlinethree {
+    background: linear-gradient(to top, $color-text-française-part3 4%, $color-text-française-part3 1%, transparent 6%) no-repeat;
+}
+.menu__papilles__gout--underline {
+    background: linear-gradient(to top, rgba(0, 0, 0, 1) 4%, rgba(0, 0, 0, 1) 1%, transparent 6%) no-repeat;
+}
+.menu__enchantee--underline:hover, .menu__française--underlineone:hover, .menu__française--underlinetwo:hover, .menu__française--underlinethree:hover, .menu__papilles__gout--underline:hover {
+    background-size: 100% 100%;
+}
+.menu__enchantee--underline, .menu__française--underlineone, .menu__française--underlinetwo, .menu__française--underlinethree, .menu__papilles__gout--underline {
+    transition: background-size 500ms;
+    background-size: 0 100%;
 }

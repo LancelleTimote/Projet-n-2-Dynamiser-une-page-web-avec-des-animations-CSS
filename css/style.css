@@ -93,6 +93,35 @@ footer a:hover {
     -webkit-transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+.menu__enchantee--underline {
+  background: linear-gradient(to top, #440101 4%, #440101 1%, transparent 6%) no-repeat;
+}
+
+.menu__française--underlineone {
+  background: linear-gradient(to top, rgba(204, 117, 45, 0.918) 4%, rgba(204, 117, 45, 0.918) 1%, transparent 6%) no-repeat;
+}
+
+.menu__française--underlinetwo {
+  background: linear-gradient(to top, #a56799 4%, #a56799 1%, transparent 6%) no-repeat;
+}
+
+.menu__française--underlinethree {
+  background: linear-gradient(to top, #6e4ccc 4%, #6e4ccc 1%, transparent 6%) no-repeat;
+}
+
+.menu__papilles__gout--underline {
+  background: linear-gradient(to top, black 4%, black 1%, transparent 6%) no-repeat;
+}
+
+.menu__enchantee--underline:hover, .menu__française--underlineone:hover, .menu__française--underlinetwo:hover, .menu__française--underlinethree:hover, .menu__papilles__gout--underline:hover {
+  background-size: 100% 100%;
+}
+
+.menu__enchantee--underline, .menu__française--underlineone, .menu__française--underlinetwo, .menu__française--underlinethree, .menu__papilles__gout--underline {
+  transition: background-size 500ms;
+  background-size: 0 100%;
+}
+
 header {
   background-color: #579c87;
   display: flex;

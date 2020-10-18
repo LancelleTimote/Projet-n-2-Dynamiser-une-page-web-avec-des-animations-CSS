@@ -28,7 +28,7 @@
         h2 {
             font-size: 3em;
             font-family: 'Croissant One', 'Times New Roman', Times, Verdana, sans-serif;
-            background: -webkit-linear-gradient(left, rgba(204, 117, 45, 0.918), rgba(143, 91, 254, 1));
+            background: -webkit-linear-gradient(left, $color-text-française-degraded, $color-text-française-degraded2);
             -webkit-background-clip: text;
             color: transparent;
         }
@@ -39,13 +39,13 @@
             padding: 0.5em 2em 0.5em 0;
         }
         &--part1 {
-            color: $color-text-chic;
+            color: $color-text-française-degraded;
         }
         &--part2 {
-            color: rgba(165, 103, 153, 1);
+            color: $color-text-française-part2;
         }
         &--part3 {
-            color: rgba(110, 76, 204, 1);
+            color: $color-text-française-part3;
         }
         &--part1, &--part2, &--part3 {
             &--title {

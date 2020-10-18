@@ -30,7 +30,7 @@
         h2 {
             font-size: 3em;
             font-family: 'Kaushan Script', 'Times New Roman', Times, Verdana, sans-serif;
-            background:-webkit-linear-gradient(left, rgba(23, 129, 14, 1) 10%, rgba(190, 255, 127, 1));
+            background:-webkit-linear-gradient(left, $color-text-gout-degraded 10%, $color-text-gout-degraded2);
             -webkit-background-clip:text;
             color:transparent;
         }
