@@ -21,9 +21,12 @@
         margin: auto;
         padding: 3em;
         width: 53em;
-        box-shadow: 0 0 15px 0 rgba(112,112,112,0.42);
+        box-shadow: 1px 1px 10px 5px rgba(112,112,112,0.20);
         max-width: 100%;
         box-sizing: border-box;
+        @media (max-width: 992px) {
+            width: 90%;
+        }
         img {
             width: 275px;
         }
@@ -41,6 +44,9 @@
             display: flex;
             justify-content: space-between;
             padding: 0.5em 2em 0.5em 0;
+            @media (max-width: 992px) {
+                flex-flow: column nowrap;
+            }
         }
         &--part1, &--part2, &--part3 {
             &--title {
@@ -48,6 +54,9 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 0 2em;
+                @media (max-width: 992px) {
+                    flex-flow: column nowrap;
+                }
                 &--mirror {
                     transform: scaleX(-1);
                 }
