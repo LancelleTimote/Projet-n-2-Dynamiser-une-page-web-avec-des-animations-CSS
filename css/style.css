@@ -167,8 +167,6 @@ footer a {
 }
 @media screen and (max-width: 768px) {
   .menu__group article {
-    flex-direction: column;
-    align-items: center;
     width: 85%;
   }
 }
