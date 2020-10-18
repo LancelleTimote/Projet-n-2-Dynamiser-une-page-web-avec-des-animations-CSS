@@ -198,6 +198,9 @@ footer a {
 .menu__group--note span, .menu__group--note h2 {
   color: #440101;
 }
+.menu__group--chic {
+  background-color: #fff5fe;
+}
 .menu__group--chic h2 {
   font-family: "Croissant One", "Times New Roman", Times, Verdana, sans-serif;
   font-size: 1.3em;
@@ -208,6 +211,9 @@ footer a {
 .menu__group--chic span {
   font-family: "Noto Serif", "Times New Roman", Times, Verdana, sans-serif;
   color: rgba(204, 117, 45, 0.918);
+}
+.menu__group--delice {
+  background-color: #edefef;
 }
 .menu__group--delice h2 {
   font-family: "Dancing Script", "Times New Roman", Times, Verdana, sans-serif;
@@ -220,6 +226,7 @@ footer a {
 }
 .menu__group--palette h2 {
   font-family: "Kaushan Script", "Times New Roman", Times, Verdana, sans-serif;
+  font-weight: normal;
   background: -webkit-linear-gradient(left, #17810e 10%, #beff7f);
   -webkit-background-clip: text;
   color: transparent;
@@ -423,7 +430,7 @@ footer a {
   box-shadow: 0 0 15px 0 rgba(112, 112, 112, 0.42);
   max-width: 100%;
   box-sizing: border-box;
-  background-color: #fff5fe;
+  background-color: #edefef;
 }
 .menu__papilles--block h2 {
   font-size: 3em;

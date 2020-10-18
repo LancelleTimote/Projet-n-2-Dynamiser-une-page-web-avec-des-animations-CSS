@@ -45,6 +45,7 @@
         }
     }
     &--chic {
+        background-color: $color-block-française;
         h2 {
             font-family: 'Croissant One', 'Times New Roman', Times, Verdana, sans-serif;
             font-size: 1.3em;
@@ -58,6 +59,7 @@
         }
     }
     &--delice {
+        background-color: $color-block-papilles;
         h2 {
             font-family: 'Dancing Script', 'Times New Roman', Times, Verdana, sans-serif;
             background: -webkit-linear-gradient(left, $color-text-papilles-degraded, $color-text-papilles-degraded2);
@@ -71,6 +73,7 @@
     &--palette {
         h2 {
             font-family: 'Kaushan Script', 'Times New Roman', Times, Verdana, sans-serif;
+            font-weight: normal;
             background:-webkit-linear-gradient(left, $color-text-gout-degraded 10%, $color-text-gout-degraded2);
             -webkit-background-clip:text;
             color:transparent;
