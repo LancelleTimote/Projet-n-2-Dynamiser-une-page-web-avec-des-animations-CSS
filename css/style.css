@@ -277,6 +277,11 @@ footer a {
   list-style: none;
   margin-bottom: 3em;
 }
+@media (max-width: 992px) {
+  .menu__enchantee ul {
+    padding-left: 0;
+  }
+}
 .menu__enchantee h2 {
   margin-top: 0;
 }
@@ -315,6 +320,7 @@ footer a {
 @media (max-width: 992px) {
   .menu__enchantee--block li {
     flex-flow: column nowrap;
+    padding-right: 0;
   }
 }
 .menu__enchantee--block--part1--title, .menu__enchantee--block--part2--title, .menu__enchantee--block--part3--title {
@@ -351,6 +357,11 @@ footer a {
 .menu__française ul {
   list-style: none;
   margin-bottom: 3em;
+}
+@media (max-width: 992px) {
+  .menu__française ul {
+    padding-left: 0;
+  }
 }
 .menu__française h2 {
   margin-top: 0;
@@ -393,6 +404,7 @@ footer a {
 @media (max-width: 992px) {
   .menu__française--block li {
     flex-flow: column nowrap;
+    padding-right: 0;
   }
 }
 .menu__française--block--part1 {
@@ -454,6 +466,11 @@ footer a {
   list-style: none;
   margin-bottom: 3em;
 }
+@media (max-width: 992px) {
+  .menu__papilles ul {
+    padding-left: 0;
+  }
+}
 .menu__papilles h2 {
   margin-top: 0;
 }
@@ -497,6 +514,7 @@ footer a {
 @media (max-width: 992px) {
   .menu__papilles--block li {
     flex-flow: column nowrap;
+    padding-right: 0;
   }
 }
 .menu__papilles--block--part1--title, .menu__papilles--block--part2--title, .menu__papilles--block--part3--title {
@@ -549,6 +567,11 @@ footer a {
   list-style: none;
   margin-bottom: 3em;
 }
+@media (max-width: 992px) {
+  .menu__gout ul {
+    padding-left: 0;
+  }
+}
 .menu__gout h2 {
   margin-top: 0;
 }
@@ -594,6 +617,7 @@ footer a {
 @media (max-width: 992px) {
   .menu__gout--block li {
     flex-flow: column nowrap;
+    padding-right: 0;
   }
 }
 .menu__gout--block--part1--title, .menu__gout--block--part2--title, .menu__gout--block--part3--title {

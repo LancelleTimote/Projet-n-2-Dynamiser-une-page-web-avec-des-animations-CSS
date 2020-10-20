@@ -5,6 +5,9 @@
     ul {
         list-style: none;
         margin-bottom: 3em;
+        @media (max-width: 992px) {
+            padding-left: 0;
+        }
     }
     h2 {
         margin-top: 0;
@@ -42,6 +45,7 @@
             padding: 0.5em 2em 0.5em 0;
             @media (max-width: 992px) {
                 flex-flow: column nowrap;
+                padding-right: 0;
             }
         }
         &--part1 {
