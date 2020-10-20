@@ -6,6 +6,9 @@
             background: -webkit-linear-gradient(left, $color-text-française-degraded, $color-text-française-degraded2);
             -webkit-background-clip: text;
             color: transparent;
+            @media (max-width: 768px) {
+                font-size: 1.7em;
+            }
         }
         li {
             font-family: 'Times New Roman', Times, Verdana, sans-serif;

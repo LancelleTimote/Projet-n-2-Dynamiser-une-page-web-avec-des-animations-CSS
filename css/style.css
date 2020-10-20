@@ -367,6 +367,11 @@ footer a {
   -webkit-background-clip: text;
   color: transparent;
 }
+@media (max-width: 768px) {
+  .menu__française--block h2 {
+    font-size: 1.7em;
+  }
+}
 .menu__française--block li {
   font-family: "Times New Roman", Times, Verdana, sans-serif;
 }
