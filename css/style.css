@@ -188,6 +188,7 @@ footer a {
 @media (max-width: 992px) {
   .menu--block {
     width: 90%;
+    padding: 1em;
   }
 }
 .menu--block h2 {
