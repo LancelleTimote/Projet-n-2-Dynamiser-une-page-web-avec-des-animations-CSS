@@ -1,6 +1,6 @@
 # Projet n°2 : Dynamiser une page web avec des animations CSS
 
-![GitHub contributors](https://img.shields.io/github/contributors/LancelleTimote/Projet-n-2-Dynamiser-une-page-web-avec-des-animations-CSS?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/LancelleTimote/Projet-n-2-Dynamiser-une-page-web-avec-des-animations-CSS?color=green&style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/LancelleTimote/Projet-n-2-Dynamiser-une-page-web-avec-des-animations-CSS?style=for-the-badge)
 ![GitHub repo size](https://img.shields.io/github/repo-size/LancelleTimote/Projet-n-2-Dynamiser-une-page-web-avec-des-animations-CSS?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/LancelleTimote/Projet-n-2-Dynamiser-une-page-web-avec-des-animations-CSS?style=for-the-badge)
