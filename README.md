@@ -63,8 +63,7 @@ Vous avez désormais tous les éléments pour construire ce site mobile. Vous vo
 ## :computer: 4. Technologies utilisées <a name = "technologies_utilisees"></a>
 
 * HTML
-* CSS
-* SASS
+* CSS / SASS
 * Photoshop
 * Git & GitHub
 
